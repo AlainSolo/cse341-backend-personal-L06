@@ -1,0 +1,40 @@
+// LOCALHOST
+###
+GET http://localhost:8080/prophets
+
+// We use POST when we want  to send a create request 
+//we create the info manually
+###
+POST http://localhost:8080/prophets HTTP/1.1
+content-type: application/json
+
+{
+    "username": "Nelson",
+      "password": "Nelson_2023",
+      "displayName": "Prophet",
+      "info": "Actuel President",
+      "profile": "Married"
+}
+
+// We use PUT when we want  to update the data we have been created 
+// we actually change the info manually 
+//after we get the Id from the created info, 
+//we copy and paste the Id right after the contacts in the url 
+###
+PUT http://localhost:8080/prophets/Nelson  HTTP/1.1
+content-type: application/json
+
+{
+     "username": "Nelson",
+      "password": "Nelson_2023",
+      "displayName": "Prophet",
+      "info": "Actuel President",
+      "profile": "Married"
+}
+
+
+//we use DELETE when we want to delete the update the info and no need to type the info
+// anymore only the Id
+//we copy and paste the Id right after the DELETE URL
+###
+DELETE  http://localhost:8080/prophets/Nelson  HTTP/1.1

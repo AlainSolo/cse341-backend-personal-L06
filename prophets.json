@@ -1,0 +1,18 @@
+{
+    "contact": {
+      "username": "Nelson",
+      "password": "Nelson_2023",
+      "displayName": "Prophet",
+      "info": "Actuel President",
+      "profile": "Married"
+    },
+
+    "contact1": {
+      "username": "Thomas",
+      "password": "thomas_27",
+      "displayName": "Prophet",
+      "info": "Previous President",
+      "profile": "Married"
+    }
+    
+  }
