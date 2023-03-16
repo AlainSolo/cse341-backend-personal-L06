@@ -4,7 +4,10 @@
       "password": "Nelson_2023",
       "displayName": "Prophet",
       "info": "Actuel President",
-      "profile": "Married"
+      "profile": "Married",
+      "age": "97",
+      "rang":"17"
+
     },
 
     "contact1": {
@@ -12,7 +15,10 @@
       "password": "thomas_27",
       "displayName": "Prophet",
       "info": "Previous President",
-      "profile": "Married"
+      "profile": "Married",
+      "age":"90",
+      "rang":"16"
+    
     }
     
   }

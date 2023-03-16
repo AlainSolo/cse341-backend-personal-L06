@@ -1,10 +1,15 @@
 const db = require('../models');
+const { validationResult } = require('express-validator');
+
 const Prophet = db.prophets;
 const passwordUtil = require('../util/passwordComplexityCheck');
 //the issue here we create the data and then we store in data base Db
 module.exports.create = (req, res) => {
  
   try {
+
+  validationResult(req).throw();
+
  //we use exception try-catch block to checkif username or paassword  is wrong or right
     if (!req.body.username || !req.body.password)
      {
